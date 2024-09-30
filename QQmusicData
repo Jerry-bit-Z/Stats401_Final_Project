@@ -1,0 +1,5 @@
+1) folder named by the rank
+ contains many files named by the song, contains: Username,CommentContent,Time,Location
+
+2) document (csv), named by rank
+ contains song_rank,song_name,song_link
