@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>Spotify 气泡图</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        button {
+          font-size: 10000px;  /* 设置字体大小 */
+          padding: 45px 90px;  /* 设置按钮内边距 */
+          border-radius: 15px;  /* 圆角效果 */
+        }
+        .button-container {
+            margin-bottom: 40px;
+        }
+        .button-container button {
+            padding: 40px 80px;
+            margin-right: 10px;
+            font-size: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="button-container">
+        <button id="view1">听众数视图</button>
+        <button id="view2">每日趋势视图</button>
+        <button id="view3">峰值听众数视图</button>
+    </div>
+    <svg width="800" height="600"></svg>
+
+    <script src="script.js"></script>
+</body>
+</html>
